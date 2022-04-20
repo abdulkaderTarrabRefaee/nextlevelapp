@@ -451,6 +451,8 @@ class _MainScreenState extends State<MainScreen> {
                               "document.getElementsByClassName('hidemob')[2].style.display='none'");
                           await _webController.runJavascript(
                               "document.getElementsByClassName('mob-menu-slideout-over')[0].style.paddingTop='0px'");
+                          await _webController.runJavascript(
+                              "document.getElementsByClassName('mob-menu-slideout-over')[0].style.paddingTop='0px'");
 
                           await _webController.runJavascript(
                               "document.getElementsByClassName('hidemob2')[2].style.display='none'");
